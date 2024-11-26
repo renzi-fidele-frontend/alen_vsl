@@ -13,6 +13,9 @@ body {
    background-image: linear-gradient(135deg, #1d2144 0%, #05062b 100%);
    min-height: 100dvh;
    color: white;
+   padding-inline: 2rem;
+   padding-bottom: 3rem;
+   padding-top: 3rem;
 }
 
 main {
@@ -20,7 +23,6 @@ main {
    flex-direction: column;
    align-items: center;
    display: flex;
-   padding-top: 3rem;
    max-width: 1200px;
    margin-inline: auto;
 }
@@ -58,8 +60,62 @@ p {
    font-size: 21px;
    text-decoration: none;
    margin-top: 1.5rem;
-   padding: .7rem .9rem;
+   padding: 0.7rem 0.9rem;
    border-radius: 6px;
    background-color: aliceblue;
    color: black;
+}
+
+@media screen and (max-width: 900px) {
+   h1 {
+      font-size: 2.1rem;
+   }
+}
+
+@media screen and (max-width: 700px) {
+   h1 {
+      font-size: 1.8rem;
+   }
+
+   p {
+      text-wrap: initial;
+   }
+}
+
+@media screen and (max-width: 550px) {
+   p {
+      font-size: 1rem;
+   }
+
+   h1 {
+      font-size: 1.5rem;
+   }
+
+   #flayer {
+      width: 100%;
+   }
+
+   body {
+      padding-top: 2rem;
+      padding-inline: 1rem;
+   }
+}
+
+@media screen and (max-width: 420px) {
+   h1 {
+      font-size: 1.3rem;
+   }
+
+   #logo {
+      width: 80px;
+   }
+
+   #telegram {
+      font-size: 16px;
+      padding: 0.7rem 0.9rem;
+   }
+
+   #telegram img {
+      width: 30px;
+   }
 }
