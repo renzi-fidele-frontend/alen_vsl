@@ -9,12 +9,57 @@
 
 body {
    font-family: "Rubik", serif;
+   background-color: #40667d;
+   background-image: linear-gradient(135deg, #1d2144 0%, #05062b 100%);
+   min-height: 100dvh;
+   color: white;
 }
 
 main {
    text-align: center;
+   flex-direction: column;
+   align-items: center;
+   display: flex;
+   padding-top: 3rem;
+   max-width: 1200px;
+   margin-inline: auto;
 }
 
 h1 {
    font-weight: 900;
+   margin-top: 1rem;
+   font-size: 2.6rem;
+   margin-bottom: 0.6rem;
+}
+
+p {
+   font-size: 1.1rem;
+   text-wrap: balance;
+}
+
+#logo {
+   width: 120px;
+   border-radius: 10px;
+}
+
+#flayer {
+   width: 450px;
+   margin-top: 2rem;
+}
+
+.span {
+   color: yellow;
+}
+
+#telegram {
+   display: flex;
+   align-items: center;
+   gap: 0.625rem;
+   font-size: 21px;
+   text-decoration: none;
+   margin-top: 1.5rem;
+   padding: .7rem .9rem;
+   border-radius: 6px;
+   background-color: aliceblue;
+   color: black;
 }
