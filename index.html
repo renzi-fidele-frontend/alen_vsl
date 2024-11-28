@@ -31,7 +31,7 @@
             </div>
             <div>
                <h6 id="lastTit">3. Acesse o curso agora mesmo copiando o link abaixo, ou clicando no botão de acesso:</h6>
-               <a id="copy" href=""><img src="imgs/copy.png" />t.me/Gold_MindsBot?start=r0746151127</a>
+               <a id="copy" href="#"><img src="imgs/copy.png" />t.me/Gold_MindsBot?start=r0746151127</a>
             </div>
          </div>
 
@@ -40,5 +40,12 @@
             ><img src="imgs/telegram.png" /> Acessar Curso Grátis Agora!</a
          >
       </main>
+      <script>
+         const el = document.querySelector("#copy");
+         el.addEventListener("click", function () {
+            navigator.clipboard.writeText("https://t.me/Gold_MindsBot?start=r0746151127");
+            alert("O link do curso foi copiado com sucesso!:");
+         });
+      </script>
    </body>
 </html>
