@@ -205,6 +205,10 @@ h6 {
       padding-left: 0;
    }
 
+   #bannerWhats #left {
+      display: none;
+   }
+
    #bannerWhats #right h3 {
       font-size: 1.7rem;
       margin-top: 1rem;
@@ -263,7 +267,7 @@ h6 {
    }
 
    #bannerWhats {
-      padding-inline: .6rem;
+      padding-inline: 0.6rem;
    }
 
    #bannerWhats #right h3 {
@@ -271,7 +275,7 @@ h6 {
    }
 
    #bannerWhats #right p {
-      font-size: .9375rem;
+      font-size: 0.9375rem;
    }
 }
 
