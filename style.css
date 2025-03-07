@@ -184,6 +184,10 @@ h6 {
    border: none;
 }
 
+#aviso {
+   display: none;
+}
+
 @media screen and (max-width: 1200px) {
    #comoAcessar > div {
       flex-basis: 50%;
@@ -198,6 +202,11 @@ h6 {
    #bannerWhats {
       grid-template-columns: 100%;
       padding-bottom: 2rem;
+   }
+
+   #aviso {
+      display: initial;
+      font-size: 40px;
    }
 
    #bannerWhats #right {
