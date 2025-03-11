@@ -273,6 +273,7 @@ h6 {
 
    h5 {
       margin-top: 2rem;
+      font-size: 1.35rem;
    }
 
    #bannerWhats {
@@ -285,6 +286,9 @@ h6 {
 
    #bannerWhats #right p {
       font-size: 0.9375rem;
+   }
+   #telegram {
+      margin-top: 0;
    }
 }
 
