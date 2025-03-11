@@ -78,7 +78,7 @@ h5 {
    margin-top: 4rem;
    margin-bottom: 2rem;
    font-size: 1.75rem;
-   text-decoration: underline;
+   /* text-decoration: underline; */
 }
 
 h6 {
@@ -288,7 +288,7 @@ h6 {
       font-size: 0.9375rem;
    }
    #telegram {
-      margin-top: 0;
+      margin-top: 2rem;
    }
 }
 
