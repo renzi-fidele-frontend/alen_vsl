@@ -1,0 +1,33 @@
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+}
+
+body {
+   font-family: "Ubuntu", sans-serif ;
+}
+
+h1 {
+   font-size: 23px;
+}
+
+h1 span {
+   color: #d6ed2b;
+}
+
+.banner1 {
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.banner1 > div {
+   background: linear-gradient(180deg, rgba(43, 15, 106, 0%) 0%, #090317 100%);
+}
+
+.botao {
+   padding: 7px 8px;
+   border: none;
+   font-size: 17px;
+   background-color: #d6ed2b;
+}
