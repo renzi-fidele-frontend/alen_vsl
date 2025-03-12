@@ -5,7 +5,7 @@
 }
 
 body {
-   font-family: "Ubuntu", sans-serif ;
+   font-family: "Ubuntu", sans-serif;
 }
 
 h1 {
@@ -30,4 +30,16 @@ h1 span {
    border: none;
    font-size: 17px;
    background-color: #d6ed2b;
+}
+
+.subtit {
+   font-size: 19px;
+}
+
+.footer {
+   background-color: #090317;
+}
+
+.logo {
+   width: 70px; 
 }
