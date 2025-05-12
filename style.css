@@ -188,6 +188,16 @@ h6 {
    display: none;
 }
 
+#nota p {
+   margin-top: 3rem;
+   font-size: 14px;
+   color: yellow;
+}
+
+#nota span {
+   color: red;
+}
+
 @media screen and (max-width: 1200px) {
    #comoAcessar > div {
       flex-basis: 50%;
