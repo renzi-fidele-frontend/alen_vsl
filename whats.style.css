@@ -29,7 +29,8 @@ h1 span {
    padding: 7px 8px;
    border: none;
    font-size: 17px;
-   background-color: #d6ed2b;
+   background-color: #00d154;
+   box-shadow: #01943c 0 0 15px;
 }
 
 .subtit {
